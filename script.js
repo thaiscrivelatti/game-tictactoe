@@ -79,7 +79,7 @@ function winnerCheck(){
     // Diagonal 1, 5, 9
     if (sequenceCheck(squares[0], squares[4], squares[8])) {
         changeColor(squares[0], squares[4], squares[8]);
-        changeWinner(squares[2]);
+        changeWinner(squares[0]);
         return;
     }
     // Diagonal 3, 5, 7
